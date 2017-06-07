@@ -1,0 +1,177 @@
+//
+//  ViewController.m
+//  Test_ everyday
+//
+//  Created by prliu on 2017/3/7.
+//  Copyright © 2017年 prliu. All rights reserved.
+//
+
+#import "ViewController.h"
+#import "Person.h"
+#import <CoreData/CoreData.h>
+#import "RetainCycleViewController_one.h"
+
+@interface ViewController ()
+
+@end
+
+@implementation ViewController
+
+- (void)viewDidLoad {
+    
+    [super viewDidLoad];
+    /*
+    NSString *path ;
+    path = [[NSBundle mainBundle]bundlePath];
+    NSLog(@"bundle:%@",path);
+    NSArray *paths;
+    paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+    NSLog(@"Document:%@",paths);
+    paths = NSSearchPathForDirectoriesInDomains(NSLibraryDirectory, NSUserDomainMask, YES);
+    NSLog(@"Library:%@",paths);
+    path = NSTemporaryDirectory();
+    NSLog(@"Temp:%@",path);
+    
+    NSString *file = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES).firstObject stringByAppendingPathComponent:@"person.dta"];
+    Person *person = [[Person alloc] init];
+    person.avatar = [UIImage imageNamed:@"WechatIMG3.png"];
+    person.name = @"刘鹏";
+    person.age = 111;
+    [NSKeyedArchiver archiveRootObject:person toFile:file];
+    NSLog(@"file:%@",file);
+    
+    */
+    //Person *person_un = [NSKeyedUnarchiver unarchiveObjectWithFile:file];
+    
+    //DISPATCH_QUEUE_SERIAL：串行---顺序执行，先完成前面的，在执行后面的
+    /*
+    dispatch_queue_t queue = dispatch_queue_create(nil, DISPATCH_QUEUE_SERIAL);
+    dispatch_async(queue, ^{
+        [NSThread sleepForTimeInterval:6];
+        NSLog(@"串行线程1");
+    });
+    
+    dispatch_async(queue, ^{
+        [NSThread sleepForTimeInterval:3];
+        NSLog(@"串行线程2");
+    });
+    
+    dispatch_async(queue, ^{
+        [NSThread sleepForTimeInterval:0];
+        NSLog(@"串行线程3");
+    });
+    */
+    
+    //DISPATCH_QUEUE_CONCURRENT：并发的；同时发生的;不知道顺序
+    /*
+    dispatch_queue_t queue_concurrent = dispatch_queue_create(nil, DISPATCH_QUEUE_CONCURRENT);
+    dispatch_async(queue_concurrent, ^{
+        [NSThread sleepForTimeInterval:6];
+        NSLog(@"串行线程4");
+    });
+    
+    dispatch_async(queue_concurrent, ^{
+        [NSThread sleepForTimeInterval:3];
+        NSLog(@"串行线程5");
+    });
+    
+    dispatch_async(queue_concurrent, ^{
+        [NSThread sleepForTimeInterval:0];
+        NSLog(@"串行线程6");
+    });
+    */
+    /*
+    dispatch_queue_t queue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
+    dispatch_group_t group = dispatch_group_create();
+    
+    dispatch_group_async(group, queue, ^{
+        [NSThread sleepForTimeInterval:8];
+        NSLog(@"串行线程7");
+    });
+    
+    dispatch_group_async(group, queue, ^{
+        [NSThread sleepForTimeInterval:6];
+        NSLog(@"串行线程8");
+    });
+    
+    dispatch_group_async(group, queue, ^{
+        [NSThread sleepForTimeInterval:9];
+        NSLog(@"串行线程9");
+    });
+    
+    dispatch_group_notify(group, queue, ^{
+        
+           NSLog(@"串行线程7、8、9完成");
+        
+    });
+    
+    */
+    /*
+    NSOperation * operation = [[NSOperation alloc]init];
+    //开始执行
+    [operation start];
+    //取消执行
+    [operation cancel];
+    //执行结束后调用的Block
+    [operation setCompletionBlock:^{
+        NSLog(@"执行结束");
+    }];
+     */
+    
+    // Do any additional setup after loading the view, typically from a nib.
+}
+    
+
+- (void)coredata {
+     
+    [super viewDidLoad];
+    
+    // 1. 上下文
+    NSManagedObjectContext *context = [[NSManagedObjectContext alloc] initWithConcurrencyType:NSMainQueueConcurrencyType];
+    
+    // 2. 上下文关连数据库
+    
+    // 2.1 model模型文件
+    NSManagedObjectModel *model = [NSManagedObjectModel mergedModelFromBundles:nil];
+    
+    // 2.2 持久化存储调度器
+    // 持久化，把数据保存到一个文件，而不是内存
+    NSPersistentStoreCoordinator *store = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:model];
+    
+    // 2.3 设置CoreData数据库的名字和路径
+    NSString *doc = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
+    NSString *sqlitePath = [doc stringByAppendingPathComponent:@"company.sqlite"];
+    
+    [store addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:[NSURL fileURLWithPath:sqlitePath] options:nil error:nil];
+    
+    context.persistentStoreCoordinator = store;
+    // 创建一个员工对象
+    Person *emp = [NSEntityDescription insertNewObjectForEntityForName:@"Employee" inManagedObjectContext:context];
+    emp.name = @"wangwu";
+    emp.age = 1.80;
+    
+    // 直接保存数据库
+    NSError *error = nil;
+    [context save:&error];
+    
+    if (error) {
+        NSLog(@"%@",error);
+    }
+    
+}
+- (IBAction)goT:(id)sender {
+  
+    RetainCycleViewController_one *one = [[RetainCycleViewController_one alloc]initWithNibName:@"RetainCycleViewController_one" bundle:nil];
+    [self presentViewController:one animated:YES completion:^{
+        
+    }];
+}
+
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+
+@end

@@ -1,0 +1,121 @@
+comper_type:0,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.104992464185"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.634036123753"}
+comper_type:0,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.444349825382"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.533357203007"}
+comper_type:0,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.3867880404"}
+comper_type:0,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.369656085968"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.601000070572"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.540955364704"}
+comper_type:0,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.454691022635"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.826600015163"}
+comper_type:0,result:{"errorcode": "7", "errormsg": "人脸比对失败,图片中不包含人脸！", "ref_thres": "0.597", "similarity": "0"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.732334017754"}
+comper_type:0,result:{"errorcode": "7", "errormsg": "人脸比对失败,图片中不包含人脸！", "ref_thres": "0.597", "similarity": "0"}
+comper_type:0,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.439041465521"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.595554828644"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.691593050957"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.685533881187"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.576041579247"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.551185131073"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.741871476173"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.568567633629"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.765846312046"}
+comper_type:0,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.000335448421538"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.731368422508"}
+comper_type:0,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.084386728704"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.705991446972"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.617230772972"}
+comper_type:0,result:{"errorcode": "7", "errormsg": "人脸比对失败,图片中不包含人脸！", "ref_thres": "0.597", "similarity": "0"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.495548546314"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.652456223965"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.694625914097"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.743527710438"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.510976791382"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.63472288847"}
+comper_type:0,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.387433439493"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.710405170918"}
+comper_type:0,result:{"errorcode": "7", "errormsg": "人脸比对失败,图片中不包含人脸！", "ref_thres": "0.597", "similarity": "0"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.523463368416"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.712461054325"}
+comper_type:0,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.476620107889"}
+comper_type:0,result:{"errorcode": "7", "errormsg": "人脸比对失败,图片中不包含人脸！", "ref_thres": "0.597", "similarity": "0"}
+comper_type:0,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.391787916422"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.636220514774"}
+comper_type:0,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.473787128925"}
+comper_type:0,result:{"errorcode": "7", "errormsg": "人脸比对失败,图片中不包含人脸！", "ref_thres": "0.597", "similarity": "0"}
+comper_type:0,result:{"errorcode": "7", "errormsg": "人脸比对失败,图片中不包含人脸！", "ref_thres": "0.597", "similarity": "0"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.666848897934"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.500660061836"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.644460618496"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.812621235847"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.715987980366"}
+comper_type:0,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.42618817091"}
+comper_type:0,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.479113340378"}
+comper_type:0,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.272823959589"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.0171275027096"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "-0.06157451123"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "-0.106433391571"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.0832440555096"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "-0.0126378042623"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.0655899941921"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "-0.118776403368"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.235113844275"}
+comper_type:1,result:{"errorcode": "7", "errormsg": "人脸比对失败,图片中不包含人脸！", "ref_thres": "0.597", "similarity": "0"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.0455578044057"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.0307189673185"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.0341783165932"}
+comper_type:1,result:{"errorcode": "7", "errormsg": "人脸比对失败,图片中不包含人脸！", "ref_thres": "0.597", "similarity": "0"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.0102881612256"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "-0.0234327912331"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.151580914855"}
+comper_type:1,result:{"errorcode": "7", "errormsg": "人脸比对失败,图片中不包含人脸！", "ref_thres": "0.597", "similarity": "0"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.106127656996"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.00671280222014"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.116009995341"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.0662910491228"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.0812166854739"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.0159731861204"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.137869238853"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.0100922556594"}
+comper_type:1,result:{"errorcode": "7", "errormsg": "人脸比对失败,图片中不包含人脸！", "ref_thres": "0.597", "similarity": "0"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.289763271809"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.00988912023604"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "-0.00233169319108"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "-0.0777030736208"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.117095567286"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.113953739405"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.0745833590627"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.03392034024"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.0275905653834"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "-0.00992521364242"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "-0.0270274523646"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.0713375881314"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.0747222825885"}
+comper_type:1,result:{"errorcode": "7", "errormsg": "人脸比对失败,图片中不包含人脸！", "ref_thres": "0.597", "similarity": "0"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.09826618433"}
+comper_type:1,result:{"errorcode": "7", "errormsg": "人脸比对失败,图片中不包含人脸！", "ref_thres": "0.597", "similarity": "0"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.0872986242175"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.0222504306585"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.106072425842"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "-0.082382068038"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "-0.000696763803717"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.232577770948"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.107707679272"}
+comper_type:1,result:{"errorcode": "4", "errormsg": "根据阀值，人脸验证失败，不是同一人请重新上传！", "ref_thres": "0.495000004768", "similarity": "0.11993406713"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.951314151287"}
+comper_type:0,result:{"errorcode": "0", "errormsg": "根据阀值，人脸验证成功，是同一人！", "ref_thres": "0.495000004768", "similarity": "0.652412295341"}
+comper_type:0,result:
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>平安科技2016 站点建设中</title>
+</head>
+<body>
+<footer>
+    <div class="container footer-box">
+        <div class="footer-info">Copyright © PING AN, All Rights Reserved.</div>
+    </div>
+</footer>
+</body>
+</html>
+        

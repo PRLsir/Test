@@ -1,0 +1,88 @@
+//
+//  KVOViewController.m
+//  Test_ everyday
+//
+//  Created by prliu on 2017/4/1.
+//  Copyright © 2017年 prliu. All rights reserved.
+//
+
+#import "KVOViewController.h"
+#import "Person.h"
+
+@interface KVOViewController ()
+{
+    Person *model;
+}
+@property (nonatomic,copy) NSString *state_kvo;
+@end
+
+@implementation KVOViewController
+
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    //kvo(.property 可以触发kvo)
+
+    model = [[Person alloc]init];
+    [model setValue:@"prliu" forKey:@"name"];//key 属性的名字。
+    [model setValue:@"15" forKey:@"age"];
+    [model addObserver:self forKeyPath:@"name" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:@"kvo"];
+    
+    dispatch_queue_t queue = dispatch_queue_create("", DISPATCH_QUEUE_PRIORITY_DEFAULT);
+    
+    dispatch_apply(5, queue, ^(size_t intdex) {
+        
+        model.name = [NSString stringWithFormat:@"%zu",intdex];
+        
+    });
+    
+    //_property
+    //[_state_kvo setValue:@"state0" forKey:@"state"];//_state_kvo 并未实例化 添加不了kvo
+    //[_state_kvo addObserver:self forKeyPath:@"state" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:nil];
+    
+    self.state_kvo = @"初始值";
+    //[self.state_kvo setValue:@"state" forKey:@"state_kvo"];
+    [self.state_kvo addObserver:self forKeyPath:@"state" options:NSKeyValueObservingOptionNew|NSKeyValueObservingOptionOld context:nil];
+    
+    //_state_kvo = @"看看改了没有，状态";//_property 属性不能触发kvo
+    self.state_kvo = @"看看改了没有，第二次更改状态"; //self.property 属性能触发kv
+    
+    
+    // Do any additional setup after loading the view.
+}
+
+-(void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary *)change context:(void *)context
+{
+    NSLog(@"keyPath:%@",keyPath);
+    if([keyPath isEqualToString:@"name"])
+    {
+        NSLog(@"name_kvo:%@",[object valueForKey:@"name"]);
+    }
+    if([keyPath isEqualToString:@"state"])
+    {
+        NSLog(@"state_kvo:%@",[object valueForKey:@"state"]);
+    }
+}
+
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+-(void)dealloc{
+
+    [model removeObserver:self forKeyPath:@"name"];
+    
+}
+
+/*
+#pragma mark - Navigation
+
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
+}
+*/
+
+@end
